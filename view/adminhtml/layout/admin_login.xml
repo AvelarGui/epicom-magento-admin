@@ -4,7 +4,7 @@
     <body>
     	<referenceBlock name="logo">
             <arguments>
-            	<argument name="logo_image_src" xsi:type="string">Dangs_Admintheme/images/logo-wide.jpg</argument>
+            	<argument name="logo_image_src" xsi:type="string">Dangs_Admintheme/images/logo-wide.jpeg</argument>
             </arguments>
         </referenceBlock>
     </body>
