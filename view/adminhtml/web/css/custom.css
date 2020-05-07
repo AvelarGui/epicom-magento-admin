@@ -22,7 +22,10 @@ footer.login-footer{
 /*Content*/
 a.logo{
     background-color: #fff;
+    border-right: 1px solid #e6e4e4;
 }
+
+.notices-wrapper{ display: none;}
 
 /*button primary*/
 .action-primary,
