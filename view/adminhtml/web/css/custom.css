@@ -93,12 +93,13 @@ button.primary:focus,
 }
 
 .menu-wrapper:before,
-.data-grid th,
 .admin__menu [class*='level-']:not(.level-0) a:hover {
     background-color: #fff !important;
     border-right: 1px solid #e6e4e4;
 }
-
+.data-grid th{
+    background-color: #231b32 !important;
+}
 .admin__menu .level-0>a{
     color: #545454 !important;
 }
