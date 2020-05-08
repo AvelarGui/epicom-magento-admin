@@ -142,7 +142,9 @@ button.primary:focus,
 .admin__menu .submenu .parent .submenu-group-title{
     color: #545454 !important;
 }
- 
+.dashboard-advanced-reports{
+    display: none !important;
+}
 /* .admin__menu .level-0>a:before{
     width: 30px;
     margin-right: 10px;
