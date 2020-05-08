@@ -174,7 +174,7 @@ button.primary:focus,
 }
 
 .login-footer {
-    font-size: 0;
+    font-size: 0 !important;
 }
 .login-footer:before {
     content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
