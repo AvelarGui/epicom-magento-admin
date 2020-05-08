@@ -88,6 +88,10 @@ button.primary:focus,
     border-color: #c32d60 !important;
 }
 
+.page-content, .page-header{
+    padding-left: 5rem;
+}
+
 /*font primary color*/
 .page-layout-admin-login .admin__legend,
 .dashboard-totals-item:first-child .price,
@@ -95,10 +99,14 @@ button.primary:focus,
     color: #c32d60!important;
 }
 
+.menu-wrapper{
+    width: 11.8rem;
+}
 .menu-wrapper:before,
 .admin__menu [class*='level-']:not(.level-0) a:hover {
     background-color: #fff !important;
     border-right: 1px solid #e6e4e4;
+    width: 11.8rem;
 }
 .data-grid th{
     background-color: #231b32 !important;
@@ -124,6 +132,15 @@ button.primary:focus,
 
 .admin__menu .submenu .parent .submenu-group-title{
     color: #545454 !important;
+}
+
+.admin__menu .level-0>a{
+    display: flex;
+    align-items: center;
+}
+.admin__menu .level-0>a:before{
+    width: 30px;
+    margin-right: 10px;
 }
 
 .admin__menu .action-close:before{
