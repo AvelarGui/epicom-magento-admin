@@ -174,10 +174,11 @@ button.primary:focus,
 }
 
 .login-footer {
-    display: none;
+    font-size: 0;
 }
-.login-footer:after {
+.login-footer:before {
     content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
+    font-size: 12px;
 }
 
 /* .page-main-actions{ display: none;} */
