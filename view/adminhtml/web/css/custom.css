@@ -88,7 +88,10 @@ button.primary:focus,
     border-color: #c32d60 !important;
 }
 
-.page-content, .page-header{
+.page-header {
+    padding: 1.5rem 5rem !important;
+}
+.page-content{
     padding-left: 5rem !important;
 }
 
