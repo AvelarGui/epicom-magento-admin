@@ -83,7 +83,9 @@ button.primary:focus,
 .page-actions > .block-footer .action-add.primary:focus,
 .page-actions .page-actions-buttons > .block-footer .action-add.primary:hover,
 .page-actions .page-actions-buttons > .block-footer .action-add.primary:active,
-.page-actions .page-actions-buttons > .block-footer .action-add.primary:focus{
+.page-actions .page-actions-buttons > .block-footer .action-add.primary:focus,
+.admin__page-nav-item._active, 
+.admin__page-nav-item.ui-state-active{
     background-color: #c32d60 !important;
     border-color: #c32d60 !important;
 }
@@ -176,3 +178,5 @@ button.primary:focus,
 }
 
 /* .page-main-actions{ display: none;} */
+
+
