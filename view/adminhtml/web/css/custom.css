@@ -162,5 +162,13 @@ button.primary:focus,
 
 /* Footer */
 .footer-legal-system{ display: none;}
+.copyright .link-copyright{ display: none;}
+
+.footer-legal p {
+    display: none;
+}
+.footer-legal:after {
+    content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
+}
 
 /* .page-main-actions{ display: none;} */
