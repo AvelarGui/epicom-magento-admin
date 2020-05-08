@@ -141,10 +141,10 @@ button.primary:focus,
     color: #545454 !important;
 }
  
-.admin__menu .level-0>a:before{
+/* .admin__menu .level-0>a:before{
     width: 30px;
     margin-right: 10px;
-}
+} */
 
 .admin__menu .action-close:before{
     color: #545454 !important;
