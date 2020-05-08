@@ -20,7 +20,7 @@ footer.login-footer{
 }
 
 /*Content*/
-a.logo{
+.menu-wrapper a.logo{
     background-color: #fff;
     border-right: 1px solid #e6e4e4;
 }
