@@ -89,7 +89,7 @@ button.primary:focus,
 }
 
 .page-content, .page-header{
-    padding-left: 5rem;
+    padding-left: 5rem !important;
 }
 
 /*font primary color*/
@@ -114,6 +114,8 @@ button.primary:focus,
 .admin__menu .level-0>a{
     color: #545454 !important;
     align-items: center !important; 
+    display: flex;
+    align-items: center;
 }
 .admin__menu .submenu-title {
     color: #545454 !important;
