@@ -114,8 +114,8 @@ button.primary:focus,
 .admin__menu .level-0>a{
     color: #545454 !important;
     align-items: center !important; 
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 .admin__menu .submenu-title {
     color: #545454 !important;
