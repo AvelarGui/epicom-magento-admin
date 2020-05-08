@@ -100,19 +100,20 @@ button.primary:focus,
 }
 
 .menu-wrapper{
-    width: 11.8rem;
+    width: 11.8rem !important;
 }
 .menu-wrapper:before,
 .admin__menu [class*='level-']:not(.level-0) a:hover {
     background-color: #fff !important;
     border-right: 1px solid #e6e4e4;
-    width: 11.8rem;
+    width: 11.8rem !important;
 }
 .data-grid th{
     background-color: #231b32 !important;
 }
 .admin__menu .level-0>a{
     color: #545454 !important;
+    align-items: center !important; 
 }
 .admin__menu .submenu-title {
     color: #545454 !important;
@@ -133,11 +134,7 @@ button.primary:focus,
 .admin__menu .submenu .parent .submenu-group-title{
     color: #545454 !important;
 }
-
-.admin__menu .level-0>a{
-    display: flex;
-    align-items: center;
-}
+ 
 .admin__menu .level-0>a:before{
     width: 30px;
     margin-right: 10px;
